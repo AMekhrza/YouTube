@@ -81,3 +81,8 @@ header {
     cursor: pointer;
 }
 
+.right-section {
+    padding-right: 18px;
+    text-decoration: none;
+    color: black;
+}
