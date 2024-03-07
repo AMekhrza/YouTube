@@ -24,6 +24,60 @@ header {
 
 .left-section {
     display: flex;
-    text-align: center;
+    align-items: center;
     cursor: pointer;
 }
+
+.left-section img {
+    width: 46%;
+    padding-left: 16px;
+}
+
+.mid-section {
+    display: flex;
+    align-items: center;
+    margin-left: -9%;
+}
+
+.mid-section form {
+    display: flex;
+    height: 40px;
+    width: 628px;
+}
+
+.mid-section input {
+    width: 100%;
+    border-radius: 2px 0 0 2px;
+    padding: 12px;
+    font-size: 1.6rem;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+
+}
+
+.mid-section button {
+    width: 46px ;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 2px 2px 0;
+    padding-top: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.mid-section button:hover {
+    border-radius: #c6c6c6;
+    background-color: #f0f0f0;
+}
+
+.mid-section .mic {
+    width: 40px;
+    height: 40px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
