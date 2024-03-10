@@ -87,3 +87,40 @@ header {
     color: black;
 }
 
+.content-area {
+    height: calc(100vh - 56px);   
+    display: flex; 
+    background-color: #f9f9f9;
+    
+}
+
+aside {
+    height: 100%;
+    background-color: white;
+    width: 280px;
+    overflow: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.nav-link {
+   display: flex;
+   align-items: center;
+   padding: 10px 16px;
+   text-decoration: none;
+   color: black;
+}
+
+.nav-link span {
+    margin-left: 24px;
+    font-size: 1.4rem;
+    line-height: 2em;
+    font-weight: 400;
+    color: #030303;
+}
