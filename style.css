@@ -124,3 +124,11 @@ nav {
     font-weight: 400;
     color: #030303;
 }
+
+.active {
+    background-color: #e5e5e5;
+}
+
+.active-span {
+    font-weight: 500;
+} 
