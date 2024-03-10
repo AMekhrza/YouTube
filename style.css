@@ -135,3 +135,10 @@ nav {
 .active-span {
     font-weight: 500;
 } 
+
+.hr-css {
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+    margin: 10px 0;
+}
