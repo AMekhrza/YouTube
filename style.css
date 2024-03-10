@@ -117,6 +117,9 @@ nav {
    color: black;
 }
 
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
 .nav-link span {
     margin-left: 24px;
     font-size: 1.4rem;
